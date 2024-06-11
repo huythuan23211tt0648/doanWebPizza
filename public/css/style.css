@@ -1,0 +1,870 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background: #004666;
+    background-size: 120%;
+    padding-bottom: 5px;
+    background-size: 150%;
+    position: fixed;
+    z-index: 999;
+}
+/* thong bao img */
+.thongbao-img{
+    position: fixed;
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    transform: translate(115%, 75px);
+}
+.nut-tat-thongbao{
+    margin-top: 10px;
+    transform: translate(2400%, 60px);
+    font-size: 3em;
+    z-index: 1000;
+    position: fixed;
+    color: white;
+    background: red;
+    border: none;
+}
+
+
+.bi-person-fill {
+    color: white;
+}
+
+.bi-basket {
+    color: white;
+}
+
+.nav-item-3 {
+    margin-top: 15px;
+}
+
+.nav-item-2:hover {
+    background: #2479a0;
+}
+
+.nav-item-2 {
+    justify-content: center;
+}
+
+.nav-item-2 b {
+    color: white;
+
+}
+
+.nav-item-3 {
+    margin-bottom: 20px;
+
+
+}
+
+.nav-item-4:hover {
+    background: #2479a0;
+}
+
+.nav-item-4 {
+    font-size: 2.5em;
+    padding: 0 20px;
+    margin-bottom: 5px;
+}
+
+/* mid content 1 */
+.mid-slide {
+    background: white;
+    height: 100%;
+    padding-top: 100px;
+}
+
+.slie-img-1 {
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 50px;
+
+}
+
+.slie-img-1 img {
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.img-slide {
+    display: flex;
+    padding-top: 20px;
+}
+
+.img-slide .slie-img-1 {
+    margin: 0 10px;
+}
+
+/* css cho 2 hut di toi, tro */
+.slick-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    /* bo goc tron */
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border: none;
+    z-index: 2;
+    padding: 10px 20px;
+
+    margin-left: 12%;
+}
+
+.slick-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    /* bo goc tron */
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border: none;
+    z-index: 2;
+    padding: 10px 20px;
+
+    margin-right: 12%;
+}
+
+/* css may dau cham tron cua nav */
+.slick-dots {
+    position: absolute;
+
+    left: 50%;
+    /* canh giua */
+    transform: translate(-50%, 35px);
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 0 10px;
+    content: '•';
+}
+
+.slick-dots button {
+    font-size: 0;
+    border-radius: 100rem;
+    width: 5px;
+    height: 10px;
+    background-color: #eee;
+    border: none;
+    outline: none;
+}
+
+.slick-dots .slick-active button {
+    background-color: blue;
+}
+
+/* bo dau .   truoc the li */
+ul {
+    list-style: none;
+}
+
+.bi-arrow-left {
+    color: #c2c7d0;
+}
+
+.bi-arrow-right {
+    color: #c2c7d0;
+}
+
+
+/* mid content 2 */
+.mid-input {
+    background: url(../img/deep-see.png) no-repeat;
+    background-size: 120%;
+    /* tang size background de vua voi page */
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.mid-input .nhapVaoDi {
+    text-align: center;
+
+}
+
+.nhapVaoDi {
+    padding: 50px;
+    background: #fdedef;
+    border-radius: 10px;
+    border: so 5px red;
+}
+
+
+/* nav */
+.nav-hahaha .hahaha {
+    color: white;
+    text-decoration: none;
+    background-color: #3a7a9e;
+    margin: 10px 5px;
+    padding: 10px 30px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border: 2px solid #717273;
+}
+
+.nav-hahaha .hahaha.active {
+    color: red;
+    text-decoration: none;
+    background-color: white;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border: none;
+    z-index: 10;
+    position: relative;
+    margin: 10px 20px;
+    padding: 20px 30px;
+}
+
+.deliver {
+    border-radius: 10px;
+    border: 2px solid #717273;
+    padding: 8px;
+
+}
+
+.namGiua {
+    text-align: center;
+
+
+}
+
+.nav-hahaha {
+    transform: translate(0%, 20px);
+}
+
+.btn-primary {
+    transform: translate(80%, -37px);
+    margin-left: 420px;
+    outline: none;
+    font-size: 1em;
+    background: #98bed5;
+}
+
+/* mid-content-3 */
+.mid-content-3 {
+    padding-top: 30px;
+    background: #f2f4f8;
+    padding-bottom: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid-content-3 .an-gi {}
+
+.btn-content-4 {
+    color: red;
+    border-bottom: 3px solid red;
+    text-decoration: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    margin-left: 100px;
+}
+
+.an-gi {
+    border-bottom: 2px solid #dfe4ea;
+
+
+}
+
+.mid-content-3 .btn-content-3 {
+    text-decoration: none;
+    color: black;
+    border: none;
+    border: 0;
+    background-color: transparent;
+}
+
+.mid-content-3 h2 {
+    font-size: 1.7em;
+    background: #f2f4f8;
+}
+
+.btn-content-3 {
+    margin-left: 50px;
+}
+
+.img-fluid {
+    /* img backgound hinh anh */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+/* zooom */
+.img-333 {
+    transition-duration: 400ms;
+    overflow: hidden;
+}
+
+.img-333:hover {
+    transform: scale(1.1);
+}
+
+.mid-logo {
+    background: #f2f4f8;
+    padding-bottom: 80px;
+
+}
+
+
+
+.pizza-nong .item {
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.noidung-pizza {
+    text-align: center;
+}
+
+.noidung-pizza .giaTien {
+    color: black;
+
+}
+
+.noidung-pizza .vnd {
+    color: black;
+}
+
+.noidung-pizza a {
+    color: #0078ae;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.pizza-nong .item {
+    background: white;
+    padding-bottom: 20px;
+    border: solid 0.4px #e8ecf0;
+    z-index: 999 top;
+
+}
+
+.item .noidung-pizza {
+    margin-top: 20px;
+}
+
+.noidung-pizza .monney {
+    margin-top: 10px;
+}
+
+/* nut xem them */
+.nut-xemThem a {
+    text-decoration: none;
+    color: white;
+    background: #0078ae;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.nut-xemThem {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.nut-xemThem a:hover {
+    background: #004666;
+}
+
+.btn-primary {
+    border: none;
+}
+
+/* footer */
+footer {
+    background: #00628f;
+    padding-bottom: 10px;
+}
+
+footer .ket-noi {
+    text-align: right;
+}
+
+.ket-noi {
+    padding-top: 40px;
+
+}
+
+.ket-noi p {
+    font-size: 1.1em;
+    color: white;
+    margin: 0 20px;
+    display: inline;
+}
+
+.ket-noi .icon-fb-ig {
+    display: inline-block;
+    font-size: 1.5em;
+    color: white;
+}
+
+.icon-fb-ig a {
+    text-decoration: none;
+    color: white;
+}
+
+.icon-fb-ig i {
+    margin: 0 10px;
+}
+
+.container-food {
+    border-bottom: 1px solid #004666;
+    padding: 0 20px;
+
+}
+
+/* food logo */
+.container-food-2 {
+    width: 1150px;
+}
+
+.logo-footer-2 {
+    width: 120px;
+}
+
+.col3-footer-2 {
+    width: 160px;
+}
+
+.logo-footer-2 img {
+    margin-top: 10px;
+    border-right: 1px solid #004666;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* hotline */
+.bi-telephone-fill {
+    color: white;
+    font-size: 0.8em;
+}
+
+.Hotline a {
+    text-decoration: none;
+    color: #ffc107;
+    font-size: 2.3em;
+    text-align: center;
+
+}
+
+.Hotline .dathang {
+    color: white;
+}
+
+/* blog */
+.blog a {
+    text-decoration: none;
+    color: #aac1cb;
+
+}
+
+.blog a:hover {
+    color: #718993;
+
+}
+
+.nav-item-foot a {
+    font-size: 0.8em;
+}
+
+/*  cre */
+.credit .ngonngu {}
+
+.nguon b {
+    color: #0999de;
+    font-size: 0.9em;
+}
+
+/* chuyen doi tieng anh */
+.ngonngu {
+    margin-left: 800px;
+    text-decoration: none;
+    color: white;
+    background-color: #0078ae;
+    padding: 10px 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.noidung-pizza .color-white {
+    color: white;
+}
+
+
+/* media iphone se*/
+@media screen and (max-width: 994px) {
+
+    .mid-slide {
+
+        width: 100%;
+    }
+
+    .credit {
+        visibility: hidden;
+    }
+
+    /* hiden an tat ca di */
+    .slick-prev {
+        visibility: hidden;
+    }
+
+    .slick-next {
+        visibility: hidden;
+    }
+
+    .mid-input {
+        width: 100%;
+
+    }
+
+    .item {
+        width: 100%;
+
+    }
+
+    .nav-hahaha .button b {
+        font-size: 0.4em;
+    }
+
+    .nav-hahaha {
+        width: 90%;
+        transform: translate(5%, 15px);
+    }
+
+    .deliver {
+        width: 200%;
+        align-items: center;
+        justify-content: center;
+        transform: translate(-25%, 10px);
+    }
+
+    .footer-cuoi-cung .nav-item-foot {
+        visibility: hidden;
+    }
+
+    .footer {
+        width: 50px;
+    }
+
+    .footer-cuoi-cung .nguon {
+        transform: translate(-5%, -200px);
+    }
+
+    footer {
+        height: 400px;
+    }
+
+    .btn-primary {
+        position: relative;
+        left: 150px;
+    }
+}
+
+/* media pizza 990px */
+@media screen and (max-width:990px) {}
+
+@media screen and (max-width:1400px) {
+    .btn-primary {
+        transform: translate(10%, -37px);
+    }
+
+    .noidung-pizza {
+        font-size: 0.7em;
+    }
+
+    .an-gi {
+        font-size: 0.7em;
+        margin: 1px 50px;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+    .btn-primary {
+        transform: translate(-250%, -37px);
+    }
+
+    .ngonngu {
+        visibility: hidden;
+    }
+}
+
+/* Điều chỉnh thanh navbar cho các thiết bị nhỏ */
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .navbar-nav li {
+        margin-bottom: 10px;
+    }
+
+    .nguon b {
+        position: relative;
+        top: -100px;
+        right: -50px;
+    }
+}
+
+@media(max-width:1050px) {
+    .mid-input {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .slie-img-1 img {
+        width: 50%;
+        height: auto;
+    }
+
+    .an-gi {}
+
+    .nav-hahaha {
+        width: 80%;
+        margin-top: 100px;
+        font-size: 0.9em;
+        margin-top: 100px;
+    }
+
+    .mid-input {
+        margin-top: 100px;
+    }
+
+    .deliver {
+
+        margin-bottom: 80px;
+        margin-top: 70px;
+    }
+
+    .nav-hahaha {
+        display: flex;
+    }
+
+    .item {
+        margin-bottom: 50px;
+    }
+
+    .mid-slide {
+        margin-bottom: 100px;
+    }
+
+    .bi-search {
+        padding-right: 0px;
+        margin-right: 20px;
+    }
+
+    .btn-primary {
+        padding: 15px;
+    }
+
+}
+
+/* Điều chỉnh kích thước ảnh slide cho các thiết bị nhỏ */
+@media (min-width: 576px) {
+    .slie-img-1 img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* responsive ipad 1500px */
+@media(min-width:1500px) {}
+
+/* Đảm bảo hình ảnh logo không bị vượt quá kích thước của header */
+.logo-1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Đảm bảo các phần tử nav được căn giữa trên màn hình */
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tùy chỉnh kích thước của biểu tượng ngôn ngữ và biểu tượng người dùng */
+.navbar-nav .nav-item-3 img,
+.navbar-nav .nav-item-4 i {
+    width: 24px;
+    height: auto;
+}
+
+/* Thực hiện điều chỉnh responsive */
+@media (max-width: 768px) {
+    /* Căn giữa các phần tử trong header */
+
+}
+
+/* responsive 1211px */
+@media (max-width:1211px) {
+    .an-gi {}
+}
+
+/* 663px */
+@media (max-width:663px) {
+    .deliver {
+        width: 10%;
+        align-items: center;
+        justify-content: center;
+        transform: translate(-10%, -350px);
+    }
+}
+
+/* responsive 768px */
+
+@media (max-width:768px) {
+    .mid-input {
+        background: white;
+        height: 50px;
+    }
+
+    .footer-cuoi-cung .nguon {
+        transform: translate(-5%, -300px);
+        margin-top: 100px;
+    }
+
+    .deliver {
+        width: 120%;
+        align-items: center;
+        justify-content: center;
+        transform: translate(-10%, -350px);
+    }
+
+    .nhapVaoDi {
+        height: 10px;
+    }
+
+    .nav-hahaha {
+        transform: translate(15%, -300px);
+    }
+
+    .form-control {
+        transform: translate(-2%, -20px);
+    }
+
+    .btn-primary {
+        transform: translate(-200%, -60px);
+        font-size: 0.8em;
+        width: 50px;
+        height: 40px;
+    }
+
+    .row-angi {}
+}
+
+/* iphone se */
+@media (max-width:506px) {
+    .nav-hahaha {
+
+        position: relative;
+        right: 100px;
+        width: 1000px;
+    }
+
+    .nhapVaoDi {}
+
+}
+
+@media (max-width:627px) {
+    .deliver {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        transform: translate(2%, -350px);
+    }
+
+    .btn-primary {
+        transform: translate(-450%, -60px);
+    }
+}
+
+@media (max-width:489px) {
+    .nav-hahaha {
+
+        position: relative;
+        right: 150px;
+        width: 1000px;
+    }
+}
+
+@media (max-width:508px) {
+    .btn-primary {
+        transform: translate(-500%, -60px);
+    }
+}
+
+@media (max-width:463px) {
+    .btn-primary {
+        transform: translate(-550%, -60px);
+    }
+}
+/*  */
+@media (max-width:435px) {
+    .btn-primary {
+        transform: translate(-600%, -60px);
+    }
+}
+/*  */
+@media (max-width:406px) {
+    .btn-primary {
+        transform: translate(-650%, -60px);
+    }
+}
+
+/* iphone se 375px */
+@media (max-width:413px) {
+    .nav-hahaha {
+
+        position: relative;
+        right: 100px;
+        width: 500px;
+    }
+
+    .btn-primary {
+        position: relative;
+        right: 100px;
+        width: 500px;
+    }
+
+    .an-gi {
+        position: relative;
+        right: 50px;
+        width: 400px;
+    }
+    .btn-content-4{
+        position: relative;
+        right: 70px;
+       
+    }
+}
+/*  */
+@media (min-width:582px) {
+    .an-gi {
+        display: flex;
+    }
+}
+/*  */
+@media (max-width:586px) {
+    .an-gi h2 {
+        width: 50%;
+    }
+    .an-gi .button{
+        width: 50%;
+    }
+
+}

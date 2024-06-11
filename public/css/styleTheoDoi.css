@@ -1,0 +1,22 @@
+.mid-content-theodoi{
+    background: white;
+   padding-bottom: 76px;
+}
+.container-theodoi {
+    padding-left: 20%;
+}
+.container-theodoi img{
+    margin-top: 100px;
+}
+.col-6 .follow{
+    margin-top: 150px;
+    margin-left: 50px;
+    font-size: 1.3em;
+}
+.col-6 input{
+    margin-left: 50px;
+}
+.btn-haha{
+    transform: translate(430%, -38px);
+    font-size: 1em;
+}

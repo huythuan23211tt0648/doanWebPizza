@@ -1,0 +1,108 @@
+.anh-empty{
+    margin-top: 130px;
+    width: 300px;
+    transform: translate(25%,-37px);
+}
+.text-menu{
+    text-align: center;
+}
+
+.mid-input-2{
+    margin-top: 59px;
+}
+.btn-primary{
+    transform: translate(-20%,-39px);
+    font-size: 1.1em;
+}
+.nhapVaoDi{
+    padding: 10px;
+    background: #fdedef;
+    border-radius: 10px;
+    border: so 5px red;
+    
+}
+.nhapVaoDi form{
+    padding-top: 25px;
+}
+.mid-input-2{
+    background: url(../img/deep-see.png) no-repeat;
+    background-size: 100%;
+    /* tang size background de vua voi page */
+    text-align: center;
+    padding-top: 20px;
+
+
+}
+.nav-item-9 b{
+    text-decoration: none;
+    color: black;
+}
+.nav-item-9{
+
+}
+.nhapVaoDi{
+    padding: 0 30px;
+}
+.nav-menu{
+    background: white;
+    border-bottom: solid 2px #dee2e6;
+    width: 100%;
+}
+.nav-content{
+    margin-left: 50px;
+}
+.nav-item-9 a{
+    margin: 0 20px;
+}
+/* active */
+.nav-link .active b{
+    color: red;
+}
+.nav-menu-size{
+    margin-left: 30px;
+}
+.tettttttttttttttttttt{
+   padding-top:370px;
+   background:#f2f4f8;
+}
+.item{
+    font-size: 0.8em;
+}
+
+.thuc-don-menu{
+    text-decoration: none;
+    color: black;
+    padding: 5px 30px;
+    background: white;
+    margin: 10px 5px;
+    border-radius: 10px;
+    border: 1px solid #dee2e6;
+}
+.img-menu-icon{
+    margin-top: 50px;
+}
+.thuc-don-menu:hover{
+    background: rgb(220, 220, 220);
+}
+.active-99{
+    background: red;
+    color: white;
+}
+.nav-menu{
+    width: 75.4%;
+}
+.active-101 b{
+    color: red;
+    padding-bottom: 15px;
+    border-bottom: 3px solid red;
+}
+.noidung-pizza{
+    font-size: 1.2em;
+}
+
+/* responsive */
+@media screen and(max-width: 500px) {
+    .emtp-card{
+        visibility: hidden;
+    }
+}

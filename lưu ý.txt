@@ -1,0 +1,15 @@
+web tối ưu hơn khi dùng google chrome
+
+web xài được nav bar:
++ mã voucher
++ khuyến mãi
++ menu
++ theo dõi đơn hàng
+
+responsive trang home
+
++ trang home, khuyễn mãi, evoucher, theo dõi đơn hàng: có chế độ ngôn ngữ Anh dưới footer
+
++ web có js thư viện slick (slide img) , thư viện w3s (thông báo img)
+
++ cảm ơn thầy đã đọc !

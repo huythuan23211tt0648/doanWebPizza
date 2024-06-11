@@ -1,0 +1,38 @@
+.mid-content-evoucher{
+    background: url(../img/black-zone.png);
+    padding: 120px;
+}
+.container-2{
+    padding: 10px 250px;
+    margin-top: 50px;
+}
+.box-evoucher{
+    padding: 5px 1px;
+}
+.box-input{
+    padding: 10px 20px;
+    background: #f2f4f8;
+    border-radius: 10px;
+    border: so 5px red;
+    padding-left: 50px;
+   
+}
+.box-logo{
+    margin-bottom: 30px;
+    background: #0078ae;
+    margin-right: 20px;
+}
+.thang-cha {
+     border-radius: 10px ;
+    border: 2px solid #717273;
+    padding: 8px;
+}
+.btn-haha{
+    transform: translate(230%,-36px);
+    margin-left: 420px;
+    outline: none;
+    font-size: 0.92em;
+    background: #98bed5;
+    color: white;
+    
+}

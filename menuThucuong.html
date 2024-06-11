@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="public/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="stylesheet" href="public/css/styleEvoucher.css">
+    <link rel="stylesheet" href="public/css/menu.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="top-header w-100 pb-0">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-color navbar-dark nav-top p-0">
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- thanh cong cu ben trai -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <div class="logo-1">
+                                <a href="index.html">
+
+                                    <img src="public/img/domino-horizontal-dark(1).svg" alt="logo"
+                                        style="width: 300px; height: auto">
+
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- thanh cong cu ben phai -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item-2 py-4 ">
+                            <a class="nav-link " href="MaEvoucher.html">
+                                <b>MÃ E-VOUCHER</b>
+                            </a>
+                        </li>
+                        <li class="nav-item-2 py-4">
+                            <a class="nav-link " href="KhuyenMai.html">
+                                <b>KHUYẾN MÃI</b>
+                            </a>
+                        </li>
+                        <li class="nav-item-2 py-4">
+                            <a class="nav-link " href="menu.html">
+                                <b>THỰC ĐƠN</b>
+                            </a>
+                        </li>
+                        <li class="nav-item-2 py-4">
+                            <a class="nav-link " href="TheoDoiDonHang.html">
+                                <b>THEO DÕI ĐƠN HÀNG</b>
+                            </a>
+                        </li>
+                        <li class="nav-item-2 py-4">
+                            <a class="nav-link " href="#">
+                                <b>DANH SÁCH CỬA HÀNG</b>
+                            </a>
+                        </li>
+                        <li class="nav-item-2 py-4">
+                            <a class="nav-link " href="#">
+                                <b>BLOG</b>
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item-3">
+                            <a class="nav-link active" href="#">
+                           
+                                    <img src="public/img/flag-vn.png" alt="vn">
+                                    <img src="public/img/flag-en.png" alt="eng">
+                               
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item-4">
+                            <a class="nav-link active" href="#">
+                             
+                                    <i class="bi bi-person-fill" style="width: 100px;"></i>
+
+                             
+                            </a>
+                        </li>
+                        <li class="nav-item-4">
+                            <a class="nav-link active" href="#">
+                           
+                                    <i class="bi bi-basket"></i>
+                            
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+        </nav>
+        </div>
+    </header>
+
+    <!-- mid content -->
+    <div class="position-fixed w-100">
+        <div class="col-5 position-absolute"
+            style="width: 405px; padding-bottom: 1000px; background-color: white ;right: 0 ; border-left: solid 2px #dee2e6; ">
+            <img class="anh-empty" src="public/img/empty-cart.svg" alt="">
+            <div class="text-menu">
+                <b>Giỏ Hàng Chưa Có Sản Phẩm.</b>
+                <br>
+                <b> Xin Mời Bạn Mua Hàng</b>
+            </div>
+        </div>
+    </div>
+
+    <div class="row position-fixed w-100 ">
+        <div class="col-9" data-provide="PerfectScrollbar">
+            <div class="mid-input-2">
+                <div class="container">
+                    <div id="myDIV">
+                        <nav class="nav-hahaha">
+                            <button class="hahaha active">
+                                <b>Giao Hàng Tận Nơi</b>
+                            </button>
+                            <button class="hahaha">
+                                <b>Đặt Đến Lấy</b>
+                            </button>
+                        </nav>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row " style="display: flex;   justify-content: center;">
+                        <div class="col-6 namGiua">
+                            <!-- placeholder dùng để nội dung hiển thị lên trên thanh chat -->
+                            <div class="deliver ">
+                                <div class="nhapVaoDi">
+                                    <form action="#">
+                                        <input type="text" placeholder="Vui Lòng Nhập Địa Chỉ Nhận Hàng"
+                                            class="form-control" id="message">
+                                        <button class="btn btn-primary">
+                                            <i class="bi bi-search"></i>
+                                        </button>
+                                    </form>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container container-nav-menu">
+            <div class="row nav-menu ">
+                <div class="col-12 nav-menu-size" data-provide="PerfectScrollbar">
+                    <nav class="navbar navbar-expand-lg bg-color navbar-dark nav-content ">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse">
+                            <!-- thanh cong cu ben trai -->
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item-9">
+                                    <a class="nav-link" href="KhuyenMai.html">
+                                        <b>Khuyến Mãi Mỗi Ngày</b>
+                                    </a>
+                                </li>
+                                <li class="nav-item-9">
+                                    <a class="nav-link " href="menu.html">
+                                        <b>Pizza</b>
+                                    </a>
+                                </li>
+                                <li class="nav-item-9">
+                                    <a class="nav-link" href="menuGa.html">
+                                        <b>Gà</b>
+                                    </a>
+                                </li>
+                                <li class="nav-item-9">
+                                    <a class="nav-link" href="menuMyY.html">
+                                        <b>Mỳ Ý</b>
+                                    </a>
+                                </li>
+                                <li class="nav-item-9">
+                                    <a class="nav-link" href="menuKhaiVi.html">
+                                        <b>Khai Vị</b>
+                                    </a>
+                                </li>
+                                <li class="nav-item-9">
+                                    <a class="nav-link" href="menuTrangmieng.html">
+                                        <b>Tráng Miệng</b>
+                                    </a>
+                                </li>
+                                <li class="nav-item-9  active-101">
+                                    <a class="nav-link" href="menuThucuong.html">
+                                        <b>Thức Uống</b>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="row position tettttttttttttttttttt">
+        <div class="col-9" data-provide="PerfectScrollbar">
+
+            <div class="mid-logo">
+                <div class="container container-logopizaa thuc-don-menu-active">
+
+                    <h1 style="text-align: center; margin-top: 30px; font-size: 1.8em;"><b>GIẢI KHÁT</b></h1>
+                    <div class="row pizza-nong">
+                        <div class="col-md-3 col-12 img-menu-icon">
+                            <div class="item">
+                                <a href="#"><img src="public/img-wwater/coke-390.jpg" alt="" class="img-fluid"
+                                        style="width: 150vh; height: auto"></a>
+
+                                <div class="noidung-pizza">
+                                    <a href="#">
+                                        <b>CHAI COCA</b>
+                                        <br>
+
+                                        <br>
+                                        <br>
+                                        <div class="monney">
+                                            <b class="giaTien">25,000</b><u class="vnd"><b>đ</b></u>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3 col-12 img-menu-icon">
+                            <div class="item">
+                                <a href="#"><img src="public/img-wwater/fanta-390.jpg" alt="" class="img-fluid"></a>
+
+                                <div class="noidung-pizza">
+                                    <a href="#">
+                                        <b>CHAI FANTA 390ML</b>
+                                        <br>
+
+                                        <br>
+
+                                        <br>
+                                        <div class="monney">
+                                            <b class="giaTien">25,000</b><u class="vnd"><b>đ</b></u>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3 col-12 img-menu-icon">
+                            <div class="item">
+                                <a href="#"><img src="public/img-wwater/Sprite-390.jpg" alt="" class="img-fluid"></a>
+
+                                <div class="noidung-pizza">
+                                    <a href="#">
+                                        <b>CHAI SPRITE 390ML</b>
+                                        <br>
+
+                                        <br>
+
+                                        <br>
+                                        <div class="monney">
+                                            <b class="giaTien">25,000</b><u class="vnd"><b>đ</b></u>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3 col-12 img-menu-icon">
+                            <div class="item">
+                                <a href="#"><img src="public/img-wwater/coke-zero.jpg" alt="" class="img-fluid"></a>
+
+                                <div class="noidung-pizza">
+                                    <a href="#">
+                                        <b>LON COCA</b>
+                                        <br>
+
+                                        <br>
+
+                                        <br>
+                                        <div class="monney">
+                                            <b class="giaTien">25,000</b><u class="vnd"><b>đ</b></u>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-12 img-menu-icon">
+                            <div class="item">
+                                <a href="#"><img src="public/img-wwater/coke-1.5.jpg" alt="" class="img-fluid"></a>
+
+                                <div class="noidung-pizza">
+                                    <a href="#">
+                                        <b>CHAI COCA</b>
+                                        <br>
+
+                                        <br>
+
+                                        <br>
+                                        <div class="monney">
+                                            <b class="giaTien">39,000</b><u class="vnd"><b>đ</b></u>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-12 img-menu-icon">
+                            <div class="item">
+                                <a href="#"><img src="public/img-wwater/coke-1.5-new-new.png" alt=""
+                                        class="img-fluid"></a>
+
+                                <div class="noidung-pizza">
+                                    <a href="#">
+                                        <b>CHAI FANTA 390ML</b>
+                                        <br>
+
+                                        <br>
+
+                                        <br>
+                                        <div class="monney">
+                                            <b class="giaTien">39,000</b><u class="vnd"><b>đ</b></u>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-12 img-menu-icon">
+                            <div class="item">
+                                <a href="#"><img src="public/img-wwater/Sprite-1.5L.jpg" alt="" class="img-fluid"></a>
+
+                                <div class="noidung-pizza">
+                                    <a href="#">
+                                        <b>CHAI SPRITE 1.85L</b>
+                                        <br>
+
+                                        <br>
+
+                                        <br>
+                                        <div class="monney">
+                                            <b class="giaTien">39,000</b><u class="vnd"><b>đ</b></u>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-12 img-menu-icon">
+                            <div class="item">
+                                <a href="#"><img src="public/img-wwater/fanta-1.5.jpg" alt="" class="img-fluid"></a>
+
+                                <div class="noidung-pizza">
+                                    <a href="#">
+                                        <b>CHAI FANTA 1.5L</b>
+                                        <br>
+
+                                        <br>
+
+                                        <br>
+                                        <div class="monney">
+                                            <b class="giaTien">39,000</b><u class="vnd"><b>đ</b></u>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-12 img-menu-icon">
+                            <div class="item">
+                                <a href="#"><img src="public/img-wwater/dao-hat-chia.jpg" alt="" class="img-fluid"></a>
+
+                                <div class="noidung-pizza">
+                                    <a href="#">
+                                        <b>TRÀ ĐÀO HẠT CHIA 350ML</b>
+                                        <br>
+
+                                        <br>
+
+                                        <br>
+                                        <div class="monney">
+                                            <b class="giaTien">25,000</b><u class="vnd"><b>đ</b></u>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-12 img-menu-icon">
+                            <div class="item">
+                                <a href="#"><img src="public/img-wwater/Fuzetea+-Chanh-Day-350ml-new-new.png" alt=""
+                                        class="img-fluid"></a>
+
+                                <div class="noidung-pizza">
+                                    <a href="#">
+                                        <b>CHANH DÂY HẠT CHIA</b>
+                                        <br>
+                                        <b>350ML</b>
+                                        <br>
+
+                                        <br>
+                                        <div class="monney">
+                                            <b class="giaTien">25,000</b><u class="vnd"><b>đ</b></u>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-12 img-menu-icon">
+                            <div class="item">
+                                <a href="#"><img src="public/img-wwater/daisani.jpg" alt="" class="img-fluid"></a>
+
+                                <div class="noidung-pizza">
+                                    <a href="#">
+                                        <b>NƯỚC SUỐI DASANI 510ML</b>
+                                        <br>
+
+                                        <br>
+
+                                        <br>
+                                        <div class="monney">
+                                            <b class="giaTien">25,000</b><u class="vnd"><b>đ</b></u>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-12 img-menu-icon">
+                            <div class="item">
+                                <a href="#"><img src="public/img-wwater/dasani-pc-new.png" alt="" class="img-fluid"></a>
+
+                                <div class="noidung-pizza">
+                                    <a href="#">
+                                        <b>NƯỚC SUỐI DASANI 1.5L</b>
+                                        <br>
+
+                                        <br>
+
+                                        <br>
+                                        <div class="monney">
+                                            <b class="giaTien">25,000</b><u class="vnd"><b>đ</b></u>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <script src="public/assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="public/doan.js"></script>
+</body>
+
+</html>
